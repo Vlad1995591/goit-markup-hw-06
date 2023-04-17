@@ -680,6 +680,7 @@ body {
   min-height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  padding-left: 38px;
 }
 
 .modal-label {
@@ -695,4 +696,12 @@ body {
   flex-direction: column;
   margin-bottom: 8px;
   position: relative;
+}
+.modal-icon {
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  top: 26px;
+  left: 16px;
 }

@@ -492,6 +492,73 @@ body {
   fill: #ffffff;
 }
 
+.container-input {
+  display: flex;
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.footer-form-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.input-btn {
+  display: flex;
+}
+.footer-email-input {
+  background: transparent;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 24px;
+}
+.footer-email-input:focus {
+  border: #404bbf;
+}
+
+.footer-email-input::placeholder {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.footer-modal-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #ffffff;
+  padding: 8px 24px;
+  border: none;
+  transition: var(--transition-background-color);
+}
+.footer-modal-btn:hover,
+.footer-modal-btn:focus {
+  background-color: #404bbf;
+}
+.modal-btn-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 16px;
+}
+
 /* *************PORTFOLIO**************** */
 /* ===== Filters=======*/
 .filters-section {
@@ -782,7 +849,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-check:checked + .check-text span {
   background-color: #404bbf;

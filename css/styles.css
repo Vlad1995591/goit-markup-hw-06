@@ -493,10 +493,7 @@ body {
 }
 
 .container-input {
-  display: flex;
-  width: 453px;
-  height: 80px;
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .footer-form-title {
@@ -508,7 +505,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.input-btn {
+.footer-form {
   display: flex;
 }
 .footer-email-input {
@@ -549,6 +546,7 @@ body {
   background: #4d5ae5;
   color: #ffffff;
   padding: 8px 24px;
+  border-radius: 4px;
   border: none;
   transition: var(--transition-background-color);
 }
@@ -685,7 +683,7 @@ body {
 .modal {
   position: absolute;
   width: 408px;
-  min-height: 584px;
+
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -736,7 +734,6 @@ body {
 }
 
 .modal-text {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -822,7 +819,9 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.form-grop-check {
+  margin-bottom: 24px;
+}
 .check-text {
   display: flex;
   align-items: center;
@@ -832,7 +831,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
 }
 
 .check-text span {
